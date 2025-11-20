@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0e0e0e;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+    background: #111;
+    border-bottom: 2px solid #d4af37;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    color: #d4af37;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.tabs {
+    display: flex;
+    overflow-x: auto;
+    background: #1e1e1e;
+}
+
+.tabs a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #d4af37;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+}
+
+.tabs a.active,
+.tabs a:hover {
+    background: #282828;
+    border-bottom: 2px solid #d4af37;
+}
+
+.menu-container {
+    background: #fff;
+    max-width: 430px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.menu-title {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3px;
+}
+
+.menu-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #f0f0f0;
+    transition: .25s ease;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item:hover {
+    background: #fdf8e3;
+    transform: scale(1.01);
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text p {
+    margin-top: 3px;
+    font-size: 13px;
+    color: #6e6e6e;
+}
+
+.price {
+    margin-left: auto;
+    color: #c71e1e;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+ /* Content Sections with fade-in */
+.content {
+  display: none;       /* Keep hidden by default */
+  opacity: 0;          /* Start invisible */
+  transition: opacity 0.5s ease-in-out; /* Smooth fade */
+  margin-top: 20px;
+}
+
+/* Show content when corresponding tab is checked */
+#tab1:checked ~ #coffee,
+#tab2:checked ~ #cakes,
+#tab3:checked ~ #desserts,
+#tab4:checked ~ #hours {
+  display: block;      /* Make visible */
+  opacity: 1;          /* Fade in */
+}
+
+.content {
+  display: none;
+  opacity: 0;
+  transform: translateY(20px); /* Start slightly lower */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  margin-top: 20px;
+}
+
+#tab1:checked ~ #coffee,
+#tab2:checked ~ #cakes,
+#tab3:checked ~ #desserts,
+
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    color: #d4af37;
+    text-align: center;
+    font-size: 13px;
+}
