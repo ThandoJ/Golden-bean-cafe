@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Bean Café</title>
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+   
+    
+
+</head>
+<body>
+
+<header>
+    <h1><i class="fa-solid fa-mug-saucer"></i> Golden Bean Café</h1>
+    <p class="tagline">Artisan Coffee • Fresh Pastries • Luxury Experience</p>
+</header>
+
+<div class="tabs-container">
+    <!--Hidden Radio Buttons-->
+    
+
+    
+
+</div>
+
+<nav class="tabs">
+    <a href="#coffee" class="active"><i class="fa-solid fa-mug-hot"></i> Coffee</a>
+    <a href="#cakes"><i class="fa-solid fa-cake-candles"></i> Cakes</a>
+    <a href="#desserts"><i class="fa-solid fa-ice-cream"></i> Desserts</a>
+</nav>
+
+<!--Content Sections-->
+<div class="menu-container"
+class="content" id="coffee">
+    <h2 class="menu-title">Coffee</h2>
+    
+
+    <div class="menu-item">
+        <img src="https://www.chilitochoc.com/wp-content/uploads/2022/12/homemade-caramel-latte-ft.jpg" alt="">
+        <div class="text">
+            <h3>Caramel Latte</h3>
+            <p>Rich espresso blended with steamed milk & caramel.</p>
+        </div>
+        <span class="price">R57.90</span>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://www.foodandwine.com/thmb/zrZQ6qWTxDT8wGoNWJ3C2KUwxGk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/10-Essential-Coffee-Drinks-to-Know-FT-0325-Breve-Latte-7af2813173a945a29f2c0a798e1ba233.jpg" alt="">
+        <div class="text">
+            <h3>Flat White</h3>
+            <p>Silky steamed milk over double ristretto espresso.</p>
+        </div>
+        <span class="price">R35.50</span>
+    </div>
+
+    <div class="menu-item">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEBUTEhIVFhUXFhgXFxgXFxUVFRUVFxcXFxUWFRcYHSggGBolHRgWITEhJSkrLi4uFx81ODMtNygtLisBCgoKDg0OGxAQGzUmICUtLS0tLi8vLS8tLi0tLS0tLS8tLS0vLi0tLy0tLS8tLS0tLi0tLS0tLS0tLS0tLy0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIDBAUGBwj/xABDEAABAwIDBQUFBQYFAwUAAAABAAIRAyEEEjEFQVFhcQYTIpGxMnKBocEUIzPR8AdCUmLC4RU0grLxkqLSJENTc4P/xAAaAQADAQEBAQAAAAAAAAAAAAAAAgMBBAUG/8QALREAAgIBAwMCBQMFAAAAAAAAAAECEQMSITEEE0FRgSIyYXHwkbHBFCNi0fH/2gAMAwEAAhEDEQA/APFAhCEpQE5IgIMFQhCABKkSoMAJUBKgBISoShBoQkIT0hCAIylCCkQYOQhCABKkQgBCEickKAAJU1KgAISJyQoARCELQBCRCwBqUJqVAw5CSUBACoQlQYIlQlAQYKlCRCAFKUCwO4zB3GNYO9dH2Q7H18ZNZrW9zSc3NnJHeQZNNm5xgQZIAzC6+hNqYbA4nCijWotDGsFVtPIJo6kZckta6cwgG99QUjywtq90OoS5o+WQV1vZPsf9od3mJLqVDLmEAd5VOYtAaDo2xJcd0RMrvMP2HwtGqK7qLpzjK2sW6z7Qptlp+M3IPNd1s3CN7ourQ6pUB0geEHNEaSBv1K5H1ep6YL3Z0/06irk/0PFNh9gDXxb6Ti5lKfuzYuySHF19QGy3qfOn2x7BVcF42P72l4iXQGlgGmeTBkcOBsvdaWx+4p56bS57suYNDZJOuY2NoF5Oq5DbG0C9pGhOoNsg/mnQg+ieOZqNsV41J1Hg8KQvQ9v9iM9HvcOCaoiWNaAKh/eIkiDqbTw1Xn9ai5ji1wIcDBB1B4FdEMiktiM4OLGIQhOICQpUhQYIlCRCAHITUIAUpqVCAEQhCAGJUIQaCUJEqDBUqQJwQAoCVCCg0Au1/Z72Mo45zXVcXTpgVWNNE/iVBdzmC4gua0wWzod4XEpaZcHNLCQ8EZS2cwdPhyxeZiIQB9G4vD0cORToUhTYxuQNboGgkjqZLjOpJK0dgUmMo2cRJcZJzHMSTaddTZYuHrVagotxNJwqmix7oBDxLGkh4JuQS4bjbdotXDE0qZzXNwyJ1lzS6I1Igb96+Z6fHkh1MpN3G3bPay6exFedihjXuOMzSHt7uAYIElwMQSRuGil2rjjSAyhxaP3LBrnEG3obbxKpHC1Xkvyua1gcTmBaHRbLpM3/AFCqYbMWF7Wl5zTBmGhwu7xHMT+Svle2mL539hYLhy8bHc7Exk0QDYwLTMLme1myC5xrUokAZmm85TILeB/sufq4+rTOakS0D2hIMDiM0gb10bsUa9F8zTaBBMgOcTuby4nmE2HqlLDofKW3sJPp5Y5609mYmzKjvA8jI3xEBpIDRYPkTy38DGi5Dtt2cfUaa1NmZ9MuDzGV1RrZkjc8gjrZbe0cOXUGimSG04cNSSX6+v6CvbKr1XMaDBGVwuQ7M6DBPxBFlSWXt6ZeV/IdvWn+cHiISq7tnAGhXfTiwMt5sN2md9jryVAr2E01aPKap0wQhImMFQkQgBUJEqwAQhCDREJUICiOUJEoQYKhATkAATgmpQUAOQklJmQaKSvcuyXY11LA061OhQNepRY5lVpa5wz5T7TtHZZJI/jgGy8/7P8A7OsRimBwLmuIa7LkBIY82c7M9piL2BsDqvY/2f7DxWCwbcPXcD4nFknMWhziGsDRZjYGb2jd7huXPknBxe5aEZQadL3NbD1nOc1jqQDxSbLwW3cNaY38xuvutL8K4ZW941oqNkxYkSTfzm6q7bxopPa4NJLbEtuLCHTwIMhNwGL79udrXRMElpAnroV5+HOpZZJvdNpejW27+qo6p4pdtSS2f7htvE/dO+CxtmsfHhbJeRAtp8eV+i3dpNHdZWAOLjBcRIZFyTwsFzLcdUZiRRpyPuyXZgZ1PlENEc+UKGZSfU64q6VfnrsWwpdmvqFTZUYk96R4S1xay4O8AkgSeSi7RY4lrmNF3uAbHMyYG6/qrdAHKd7ySXHi7eVyWJfUq4gNJykGJ/gG8+8qT0YsdJc8jY9Wadt7RLuKqMawURe7c7ho2IgTxWdhcU+k8jMQ2TYzeIuevHcuxwtKlReaYdTIytGWB3gdDjme87iDpuAK57tTRhzWkQ8yRoMzQLAkmSYg6zdEsepvU/b0NhOK2S9/U4ft9WbWe2s1gbq1wtJuS0/I25rkSvQaOAo4mk+m/UCabhZzagEcsw4+a4LEUXMcWvEOGo+o4jmvS6Wa06PQ8/qoNS1eGRIQhdRyipEqRAAlQgLABCWEkINBCEICyJKmpQUGDgnJgKeFoAUJUiwAJXuv7PuzeEdgXvAZUAAyPORzmvMZnlt4d7Jg6CLLwkr139knZ+rRz4g13BhbD6TZNMyXD72xEiDpBE68YdSrg962dfev4LYW72Xp+57NsLZ7KNLw3LvE5xu5x5nlosntNteA6nScKdRzDFUAFzYuIB11+Gbmo8LjHub3ZDqdIE5nyMzm38LLSB/Nw0ubY/abHjvT3QZEEeKZ0GnlJ6LjfUNYEqp0tvr+eTphgcsu+/5+bEmytqyfvAHOmC4yZi+a4Aab6AfEqXtxtSpQwzX0nlpL2tmAYEF0fGAFzGzNoMdVa3NaYvbfdd1tfCsdRIcWGIIBgwRvHNcHR5Mix5HLxvtt6nV1OKMMsNuSt2dxxewlwAc6HEDSYurOKoUmk1C1oJ1MAE9eKzdi1GCqJeBykX3WWntTJkcHuGUyRJ8QMABoH715MzvVOi6iUukc/Kbq/wBTnzY0s1etGdi203NkafxNJHzC8/2s2lTqfdVnPPtOaAKh1vp4vVdRgMBWqOLKTnBjhcEy0aXubK6MJQwz/uwKj97n+LxTMt/NNjyx6lW4/f7+hev6dtKXt/s5ajg6zqhdVLhTc0uNN9gHZfCWgeItBjgqu1S3EYcuqN9k2N9ZjNPQRK3Me1/icZcXEknrw5LExmLYyl3LSM5Mu3gNbusbzwVJXFans6DG9ckl6/8ATK2ewUqgmSy58MaQbDfK2ttbEGMpd0yA+zs0MPhgw7+L91osbz1UFek4saG0xDjAcA6C65MOjl8lv9n6tKnhy4AZwJeJ8ZIsModrbfMT1tPBkp3J0yvUQtfCrPFdr7Dr4dzm1abmhpjMRDTeAQs0r3PtXsJtbAB1WoXF5ljrFwaD4GlxG6SJGsuO9eJ43CupPLXi/LQ3iR5L2MU9S3PGyQ0vYgQhCqTFShIgLAHgIISApZQAiEsoQBWQhC1AAT2lMTwtAkCCkCCUoCTFxru6r6G2A2hVw1Cowd097ab6ndl7WuMAuJAOVxMn2gdV88r3b9ntQOwOHJJswDplBB+Fh8ZUc7pFsKtnX0sOXwXuYSwktBaZHhI1bPECY0WCNlXqEFgJMEtBbLt5EjgYW/VZYRe/mN6rZDe9xukmJ4+a8/JT5R24248Mw8HsKmHg1WmoIsAQcx3kkmSefPctAbMwxiaMcjmjdE8TqpXVLyD7NuCgrV3OJBkxoZ4KNQS4LdzI/JT+xU2RkYGNvNnOJNogn2Rr5BZuONRtRsZ3NIkQM5BExM6dVrOJJiZ9J3WHL1R9mc+TncJ4AW4BI4Rl4KRyyi7bJcDtE9w1jGPZIGclpB91T0MM0m60sOcrAOA9Fn7U22KRgDM43jgOJXbiwwxQXhHnznKcnSG7S2XRq0y01XMMGC14HmDYheeVNjPY4huVxBuQTESRck2kdV3bdsF0y0fPeqlWjSJeQAHOHi+SJqE948lcWSePZ8GTge+c1rKp8DQSIu4OIMN6CR+iqeJe173PZoSANYDgBIN4Ok6rZZlpj+6545+9cGR3RqF7t/igSOU+VksMWycluM8zt06RLtKvVbRFDMcocXTYGSZOlomSvOO0VSag6f2n5LtduYsukSuC2ufvSOAA+v1XbjS1bHFkb02ymEJAlXQQBKkSrACUShJKAFQklCAIkJzWqUU1thRAnBSmmk7tFm0NlJKf3aTu0WYNC9t/ZPUJwNMbw54HTvCTB8l4pkXrn7HMWTh6lPXLUMcgQHeRLioZ1cSuJ/EemO0/RvuUFZpDbQNNdL6qR7CeV9+8blJVET+vNcEonXFmXlm/MTwvy+CibSnUwN/P4hT1JGsAATAt4ufLVRPxAFNxv4dbEmeW8qOlstqrgYawEgRHH0+KsYWoIjlpzWKx4BDWkkmHgFuXwXEdbq7VxcBoyGTOnLdITRTsWSNMuJkBw06karDxOHGYF0kkXO+3/KiO1fG8NIGWAecCSPnCou23TbXNN7riB7thqqStqhIqnZZqAC4E7rKCrXb/AA33ahaDarS05YI5b+aqVngAngs7TG7hnDDOMk2n4mFWxNUMbHBWNo7Sa3UwedhPU9VzFWo4uM/P89/9lZRUSbblyQYuqSS46arjsY+ajjzXUbQqxrpEnruj5/JcpVdLieJXVhRzZWNSpIQArkRUJYQgBEkpSmoAEISLAJKYU4UbU8JWOOSgJE4LDRQxGRKEsoATu12f7Nq5a+oGmPZ+cg+gXHArpOwtWMQRxaD5H+6nk3iymL5kep0dtvbRa5wzEQHecSpsRt5uWSHdOfny+SxXt/8AT1eRd8nSq1d33bug9f7rgaO1JG0/bVOJnXUEGdZ3fq6czaNN1886QDbLHBcxXbLfgR8p+iiwzZpE8FlMZpG/X2qy4DhpFzJ63UY2u0DUea5QjxxyJ+SK2aAeIHzC3Qw2OiFegTmkAkzE2njCydrYWi6qaragDjr+9wCoVhDMw1yj6fmoMvteXxVKYlI2sDiadJrprZiYtoPLiqOM2jQc1zXAuDrEXAItrpOgA5Kg+lAMrKqOumpoWkWNo1Kb6oq5TMAGTYxpYaKDEY1xPXgosRqAoqntBMt+RHtwR4hxcTJ0t9Ss3uVfcbE+9/4/VQBdMNkc092VjSTcitkJpan1CUV8qa4KwQoXhamY0QlMKkcFGUwoiEIWAWEqkFGUvdFJaKUxjVewWGDwSToq4oq3gKZui0bRUKaSpKjbnqVEQgADlt9j6sYtvMEeh+ixcq0Oz78uKpnmfQpZbpjQ2kj1dl2Vh/KT5t/uqjRNJ3uE+UH6K3hPbI4s/XoqeBvTA4sI/wCxy89neiB3sjqPqFHg/wAJw5f0pQ7weR+f903C+w4dfqFqNZng/eD3foUuOsGjkPRNb+I33fzRtI2HuhOuBHyNe9sZTpDT8/8AhNLYLveB9FHjGjpLfqB9E7NAHPL6AJlyY+CKubHoVivN1r4kw1yyGiXjr9VrEQyufEo3nxlON3qKofaKaIsiGpZnX85+iMNRLiAFJiaJyN5x6T/Ut3s/hAG5jqjNl7ULDBh7s9+CnS2ZBAK22bDYAJHVJh3B+Ia3cD81f7TQ1rYMLzZzyzaV0ei8WOOyRl7T2EwMJaFzGMwBAkLpcLtQGnDjJEhY7K+eQdyt088sb1PglkxY5Lg5x6icr2NpQ4qi5evF2rPHnHS6EQhCYU08I9aWDwLqh8IWZS1XoXY0Na0EgEyFw55aNz0ukx9x0/Ax3Y7JhxUefEd30VDYmCYMS1jhIJuu/wC0mKFRrGt1NgOZsm4Xs1Twpz1X5qjwAwcHHcFww1uL+Lc7pKEYfEuTm+0PZpraofQpFzB7ceqze1PZsMpipTpmYBMc16ntbGU8DQl7S4Obc6w4+i5uhtFrKDX1Xh4qXy28O9NGEoaW3ujm1qaqtjySpQLTDmkHmpcE2KjD/MPWF1212sxGYwG/w9Fx5OR/Qj5FdcZ6iEoaT1PCO8TTxEfIlQ4EQ6ODiPmWo2VUzNa7kD5uaPqilZ//AOh/3B31UXyWXBQb7B6D1alw49v9apXiMw94eX/CKR16D6oRrMth8bfdS7TNm9Exh8Y6FO2mfC3p9U64EfJFWYXEgbmi/AWP1S4lotwsp88ADiRPk1RYp1/P0TpCsp432Csqj7fz8gtHGPlp6j6rMpau90+kIfIpHT9r4KIizvipaOpRhiLTpI8swJ+QTxEka+0aYpNY0i5Dj5ONMfJgPxUFLGQLKPb+LzvYeFKkD1LQ8/NxWaKyTLDWymGbgkbWyMQBWBJU3avaAcWwdy50uOoKp4mqZuZSRwXOzoefaydleEyniodKqZki6u2jmll2J678xlVHtU7TZQvKrFUqOKbt2MhCJQmEOkwGALhMLb2dUc0EDcrNOk1rYGqpAuY8O1E3HLevKyS7nJ7WD+zvE7fY2LpOqUnu1HtTuWp2n7QPfXotwVDv8hJcf3QYgCeM+izNh7Sw9RzabGBpOuYa+al7adonbPqUhRYMjh4oCTBHStKFzPU02c5tvbePxNX7NiGNpNzS7eQ3cB+awdp4YtxBYKhyADX6Kfae3/tJqVXSH2yRaAOK57FY41IeZJFir02xLUUaWLxNoY7SywK+JglPbWbMtMcQnnDtJkq0IqHJHI3Pg9L7O1c1Bp40yf8ApM/QK7XEFx/n/oH5FY/ZF80WDkR8CCFs17tcf5mHzzj8lz5FuWhwU8U3xP8AeqfP/lRUh4Cf5W/1Kxit5/n9WgqDDfhO936n80qHZjD2/P6p20j4W9D6pP8A3PiUm0h7Nwbn1VFwI+R7zpyv81Xxj9PimPq2PQ+qgr1JhbYtEVc+E9R6FUmmzuYj5hWKxsqrtCtRjI2nwkp9Bslo5E/JRfuq5g2+KeDfVViRZVx2JbLhFwY8rfRZxrKR9FxknfdRspgG5TpIXUxrq7osqzpKu66BT0oiIumTrwLTfkybpYV/EUQLlV6TQ50BPq8iuL4CmxFWlZa9PAWTqmBspd6Nj9iVHO5ULY/wxKn70SfZkdTWxjRZuo1UFbECLarPYwm6sM+C43iR3rMybDY2HNdMEGRCftfbFSpVD6pzsAgCNAowwF0OEb7J+GyAukT1WOFbpG672Zy+JrZKhyeyd3BVhvibrtHMpOaT3Y/JUcPg6ZN7SqRy/QnLF/kc3QpXkq+Ggiy1/s1KNeirVcLAkBY8jk+DVjUVydD2RqQwcifWy6VrfBVHANj/AEvj6lchsGoWPYCbOPlquswjs2ccaRPxc0O+qnk9RoELx90T/Mw/7m/RUqZ+6d09CrLHTSqfA/8AcVSomzx731SFDMrHxlV6xsOpU1b2vL0VesbDqUwrEnXp9QoqpTwden1Cgc5aYR1jYqtUNlNWcq9TRPEmxrtAFdZZrzyI8h/dQUKZc9gG8rUxGELcM55sC8hvODePJViSkzEptc6wCjqbKM3dCsUHEaGJS1Qd90+64FVNblH7MQIBUb8K+faWhlI3JGmNQt1MXSiq3CT7RWvg8IwBU6hBKuYaoGDiealNOSLQellxoAT3ZYWbiccXC0BQnEOUlhZV50astSrI7w8UJuz9RO/9C81h+v64J76sCSPjwSN4np16oFXK9jgxr4IcWOGdhJmzmzcAXv1VaJ2NpYlhaSXkH3XH423CPmpm1qLvCCQ7TX0toq1LA1TOUmG+1YReT0Fgm4jA3DnPDSDMATEfzOI/Lql035Gv6FvCVWsaZplwNtd/JQkMkhpNhJgyL7hxKTZWEL2OdnswiW6EToZ3XtpvUWMflgtgQRuuerlqhvYatqHZBAEgczyTsa/2fFNonQfBRUsW57rRJOWANN0DjZJUeCQC24aZvmlwOp4BGnfczVS2HUKkPF7yOWhXT7L2tlLQbnSNDAdod05fRcY1xLiSZgTJ8gFaoY0ES7VpBg75Ba6/QnyCZwTW4qm07R2WGxTfGyReR8rfNVKNcZjf9FYLY72QXMa5hG7KHEjKWFp0ibdFVYKpqZWVKb7EyHRoLAi8EqXY9Ci6heTXr1Bm+AUFV3h+KzKzcRb7ondLSHbwOouQkcMQGk9zUsRMCYJ00WdmRveiaDXa9FA9yoMq1zdtGqejHH0QyjiXaYeseP3boG+53LVhkY80Seq5V6tUK1h9hYl7y17BSjLPe1G0wS6MrW2kkyLAFamzdh0/tYAqMexjWuJpsc/M8udDWlxIgZRL+dhwosdckpZvQi2Jh6hxDYbGQBxmbEgZJ55otyU3aqoaFCnSJl+YzwGWc0f6ibrSr9oqNBtR+cONSpAY323NpZQ3QwxhOczv3TZcHj8c6tVNRwgnQDRo4CfPqSqqJNzbJKeJVrD1lnME+a0MNRt4XXG60KeSkUxW2WWmRZVn03TCkqVCDBAH6vEJBUmIOvmorUtyz0vZkbqbm3UTnHeVaxALWF50AMDnukLPdXgS4gnkq47kSyJRH5uSsd9bRZ1KtL9NVdLONraRqqOJNP0HZikTJQigs3aVYlwENvEExGsb7acVfw2Rroe1rjMROodxAsRA+ayX5YADnTqeA8tTHFOpZZOe4EwZtO79c1zSVo6oOjXq4ru3khrSNzBMaRccbwsTaYrvP4L7wdxgG1yDG9WsPlAnKbETJFzrpwV2nigL+KLXjhfpfRYpygqW4+iMnbdHM0dnYgkjI4CbmRuvu+HxCt1dk1CG3dBsc4MbwSDpqFo/43TJuXT1gWm1tAruFfTqkd5VDRDiCCb2AAExadVjzZL3VGrBjrZ2YWz9hGJLhxdZ0AG1o1806ns5+sudfLoRpAETeIHktrEYljHhortgAEZRBjTV0ienBV8Tiw1o8ZILpMG9um+PVHdne65F7cK28GczBtLQWuiRDy8hrW3MQbm4A3cbb1BXwYbPiabbpv5xzVtz8zpuB7PACSTeOSWtiJN4c0eINAMcwdDpvVrdkaVGV9ldGYVA2DYZiDMiPDw59U/H1qtNwZUyvIE3aIjqDBGiv0crnlxp+AiA0EgyNDOpCy8dRc5/hd4TuM+HeQnU96Yjx2rQhx7YvQjS7XuF9fy0VmntehDg5uJExZtYm44yRKkwuCa1hLsxgEhxENPITvUdCh3zgAGtLQLGSTxdfXQWR3I8+DHhfF7k1Da+FDCD9rnlUIHl3ir1cdhckZMS483gCfnb4K2dhRYwdf3SPCN83VSrswC2UzvI+BGg5nyC1ZY+DHgkuRj9vENY1lFjSz2XEl5B3EA2nfeVR+31iCO8dDpLogTuvF4i0cLaLU/wa9nAhoBLhMAkTAnXqqVSmA/LJ3xfeRCdTTE7bRUpUQDJEjhpNuIThT1jTne0203rXpbPFw9xZAkEtMOvcEj2TEmdPDGpCkf3YEB0zrJILW65b2MdEkslDLGZDGfr69VIx4ab+sQbbxvUtOnmdDs2WSSRZ0XtJ0m0/GxU76fdzlY4GTPiBaBJygX8VgLwN9gtbBLyR4eXDMans3F5IPTVJhsO9zxkmwkk7hrw1URp1O8a4tgSOExvmOimwtd1PO4PGYaXBHHfvsB8VlUMty/Xo3PePlx1zOgmdZAmN6rvpsIA9rTcDN9Dx11VGtiX1S4kGZBJJHrv3W3QpaeMOYAzbfvsp9trcprTLbqOsMLRuAbHGYtbTeo3MaNSdNAQXZuen5qalVBnM88gLz1MTx8gqtWNASQNAdyWN3Rs6q0RwOf6+KFL3jf/AIwhV3I7Fl27p9U1+74eqEKZbwX/AN4/D0CvYj/KPQhSn4+6LQ8/ZnDnVdVsT8Kn1P8AuKEK2fgjg5f55Q3Fau+HopaOo6n6IQkj4GnyS7R/Dd74/wBpVLaHtv8A1uCVCaPIr+UTZ/tM6BTYr8M+8PQpEJZ/OPD5CPF/gf6lmH/Nj3voUITx+SXuLL5o+xvu/DPufVTYf9z3H+pQhcK8+53y8EFD8F/x9SuZpf5lnvhCF6MeDzJc+52vaD8UdAsCt7Z94ehQhQwlsw2no73R6KSp+D/qb9UIVkQYrN/Uf7VDR9r/AKPohCJGrwQ7R9l3/wBv9IWa38kITQ+UyfJdZr5einf7R6/khCR/MHgYhCFop//Z" alt="">
+        <div class="text">
+            <h3>Mocha</h3>
+            <p> Combination of espresso, steamed milk and chocolate.</p>
+        </div>
+        <span class="price">R40.00</span>
+    </div>
+
+    <div class="menu-item">
+        <img src= "https://brot.ae/cdn/shop/files/Cafe_Double_Espresso_1_46ef7fbd-a1b8-4fd8-b7d0-5002597ab89f.webp?v=1745579437&width=2040" alt="">
+        <div class="text">
+            <h3>Double espresso</h3>
+            <p>Consitats of 2 highly concentarated shots of espresso. </p>
+        </div>
+        <span class="price">R26.00</span>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" alt="">
+        <div class="text">
+            <h3>Cappuccino</h3>
+            <p>Equal prats of esprsso, steamed milk and milk foam. </p>
+        </div>
+        <span class="price">R35.90 </span>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://cdn.ckitchen.com/img/blog/d4980721-0b56-496a-9f5f-0aace6150b69/3c82ce1f-883e-4554-a8be-80166340008f/9bd7252e-5918-49be-bd9a-e0e477fb34e9_macchiato-vs-latte.webp" alt="">
+        <div class="text">
+            <h3>Caff`e macchiato</h3>
+            <p>A shot of espresso and a small amount of foamed or steamed milk.</p>
+        </div>
+        <span class="price">R29.99</span>
+    </div>
+
+
+<h2 class="menu-title" id="cakes">Cakes</h2>
+
+    <div class="menu-item">
+        <img src="https://liliyum.com/cdn/shop/products/Redvelvetcake-1_2400x.jpg?v=1603689375" alt="">
+        <div class="text">
+            <h3>Red Velvet Cake</h3>
+            <p>Deep cocoa sponge with luxury cream cheese frosting.</p>
+        </div>
+        <span class="price">R130.00</span>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://static.toiimg.com/photo/75758092.cms" alt="">
+        <div class="text">
+            <h3>Chocolate Truffle slice</h3>
+            <p>Dark chocolate with smooth ganache topping.</p>
+        </div>
+        <span class="price">R25.00</span>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/zyertudg/7bf3ec7d-48a8-4caa-b901-7b84bfcc18b5.jpg" alt="">
+        <div class="text">
+            <h3>Cheesecake slice</h3>
+            <p>Rich, creamy flavor and smooth texture.</p>
+        </div>
+        <span class="price">R18.00</span>
+    </div>
+
+
+    <div class="menu-item">
+        <img src="https://youthsweets.com/wp-content/uploads/2023/03/CarrotCake_Feature-500x500.jpg" alt="">
+        <div class="text">
+            <h3>Carrot cake slice</h3>
+            <p>a moist and spiced cake made with shredded carrots.</p>
+        </div>
+        <span class="price">R17.65</span>
+    </div>
+
+
+    
+
+    <h2 class="menu-title" id="desserts">Desserts</h2>
+
+    <div class="menu-item">
+        <img src="
+        https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsYO9D11sPS-nvX40uDAbSIUHZWbFhjN1sBQ&s" alt="">
+        <div class="text">
+            <h3>Tiramisu Cup</h3>
+            <p>layers of espresso-soaked ladyfingers and a rich, creamy mascarpone filling, finished with a dusting of cocoa powder.</p>
+        </div>
+        <span class="price">R30.00</span>
+    </div>
+
+
+    <div class="menu-item">
+        <img src="https://sugargeekshow.com/wp-content/uploads/2022/12/french_macarons_featured4.jpg" alt="">
+        <div class="text">
+            <h3>4 Macarons </h3>
+            <p>soft, chewy cookies that are typically made from shredded coconut, egg whites, and sugar.</p>
+        </div>
+        <span class="price">R68.00</span>
+    </div>
+
+
+    <div class="menu-item">
+        <img src="https://5.imimg.com/data5/ER/NL/MY-39322588/mini-donuts.png" alt="">
+        <div class="text">
+            <h3>Donuts</h3>
+            <p>Cream filled donuts, dipped donuts and glazzed donuts.</p>
+        </div>
+        <span class="price">R12.00</span>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 Golden Bean Café</p>
+</footer>
+
+</body>
+</html>
